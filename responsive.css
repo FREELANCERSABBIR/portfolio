@@ -1,0 +1,161 @@
+@media screen and (max-width:1327px){
+#master{
+    max-width: 31%;
+    float: left;
+}
+#smas{
+    max-width:32%;
+}
+#tatal{
+	    max-width:348px;
+}
+#bold{
+	    max-width:168px;
+    display: block;
+    overflow: hidden;
+    float: right;
+}
+}
+@media screen and (max-width:1024px){
+	#free{
+		    transform: translate(86.5px);
+	}
+	#menu {
+		padding-top:11.5px;
+    transform: translate(-24px);
+	}
+	#menu nav ul li a {
+    font-size:18.5px;
+	}
+	#toll{
+		transform:translate(-230px);
+	}
+	#ashol{
+		margin-left:-1px;
+        margin-bottom: 17px;
+	}
+	#ashol h1{
+		margin-left:67px;
+	}
+	#master {
+		   animation-name: ter;
+    animation-duration:4s;
+    max-width: 50%;
+	transform: translate(20px);
+	}
+	#smas {
+		    animation-name: ter;
+    animation-duration:3.6s; 
+    max-width: 50%;
+	transform: translate(73px);
+}
+#lmas{
+    transform: translate(-99px);
+    max-width: 100%;
+    margin-top: 35px;
+    float: left;
+      animation-name: ter;
+    animation-duration:4s;
+}
+	#tatal {
+    max-width:420px;
+}
+	#gom{
+		border-radius:100px;
+	    max-width: 189px;
+	}
+	#gom img {
+           width: 177px;
+	}
+	#bold{
+		max-width:170px;
+	}
+}
+@media screen and (max-width:768px){
+	#free {
+    transform: translate(9.5px);
+	}
+	#menu{
+   max-width:80%;
+   float:right;
+	}
+	#menu nav ul li a {
+    font-size: 13.5px;
+}
+#f{
+	font-size:15px;
+}
+#hiedth h1{
+    color: #00328b;
+    font-size:45px;
+    font-family: opensans;
+    text-shadow: 3px -1px 20px #fffcfc;
+}
+#hiedth h2{
+    color: #00328b;
+    font-size:37px;
+    font-family: opensans;
+    text-shadow: 3px -1px 20px #fffcfc;
+    line-height: 1;
+}
+#all {
+    border-radius: 18px;
+    max-width: 105px;
+    display: block;
+    color: white;
+    font-family: arial; 
+	background: #FA5C65;
+	padding-left: 14px;
+	padding-right: 2px;
+	padding-top: 6px;
+	padding-bottom: 5px; text-decoration: none;
+}
+#p{
+	margin-top: 9px;
+    color: #00328b;
+    line-height: 21px;
+    font-size: 19px;
+    font-family: opensans;
+    margin-bottom: 30px;
+}
+#spon{
+	    max-width: 46%;
+    float: left;
+    margin-left: -17px;
+}
+#toll{
+	transform: translate(-357px);
+}
+#ashol h1 {
+    margin-left: 24px;
+	}
+	.strong{
+	    margin-top: 10px;
+    margin-left: 106px;
+	}
+	#miter{
+		animation-name:ter;
+		animation-duration:2s;
+	}
+	#lmas{
+		animation-name:ter;
+		animation-duration:2s;
+	}
+	#smas{
+		animation-name:ter;
+		animation-duration:2s;
+		margin-top:40px;
+		margin-bottom:10px;
+		    max-width: 100%;
+    transform: translate(-95px);
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,416 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{font-family:arial;}
+/*-----------------
+   first-section
+-------------------*/
+.first-section{
+}
+@font-pace{
+	font-family:mon;
+	src:url(Montserrat-Bold.woff);
+}
+#cointenar{
+	overflow:hidden;
+	max-width:1370px;
+}
+.background{
+	margin-bottom:79px;
+	overflow:hidden;
+	display:block;
+	background:url(freelancer.jpg)no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+#free{
+	overflow:hidden;
+	display:block;
+	max-width:40%;
+	float:left;
+	transform:translate(218.5px);
+	cursor:pointer;
+}
+#free span{
+	overflow:hidden;
+	display:block;
+	font-style:italic;
+	font-weight:bold;
+	display: block;
+    background: #FA5C65;
+    font-size: 20px;
+    max-width: 100px;
+    max-height: 132px;
+    overflow: hidden;
+	border-radius:5px;
+		    padding-bottom: 31px;
+}
+#free span a{
+	color:black;
+	text-decoration:none;
+	    padding-bottom: 31px;
+}
+#free span a:hover{
+	color:gray;
+	transition:all 1s;
+	background:#00ffac;
+	transform:scale(0.5);
+}
+#menu{
+		overflow:hidden;
+	display:block;
+	max-width:60%;
+	float:right;
+
+}
+#menu nav ul{
+	float:left;
+}
+#menu nav ul li{
+	list-style:none;
+	float:left;
+}
+#menu nav ul li a{
+	    font-size: 24px;
+    padding: 18px;
+	text-decoration:none;
+	color:black;
+	transition:all 0.3s;
+}
+#menu nav ul li a:hover{
+	color:#FA5C65;
+	transform:scale(1.3);
+	opacity:50%;
+}
+#about ul{
+	float:left;
+}
+#about ul li{
+	list-style:none;
+	float:left;
+}
+#about ul li a{
+	    font-size: 24px;
+    padding: 18px;
+	text-decoration:none;
+	color:black;
+	background:red;
+	transition:all 0.3s;
+}
+#about ul li a:hover{
+	color:#5cfaeb;
+	transform:scale(1.3);
+	background:green;
+}
+#om{
+	padding:7px;
+	text-decoration:none;
+	color:#FA5C65;
+}
+#f{
+	padding-left:10px;
+	font-size:22px;
+	color:#5cfaeb;
+	cursor:poiner;
+	transition:all 1s;
+}
+#f:hover{
+	color:#FA5C65;
+    transform:scale(1.3);
+}
+#hiedth{
+	margin-bottom:15px;
+	overflow:hidden;
+	display:block;
+	font-style:italic;
+	font-weight:bold;
+	font-family:Bernard MT Condensed;
+}
+#hiedth h1{
+	color:blue;
+	    font-size:50px;
+    margin-top: 319px;
+	    text-shadow: 0px -2px 0px #ffffff;
+	}
+#hiedth span{
+	     color:#04e3ff;
+	    font-size:30px;
+}
+#hiedth h2{
+	color:blue;
+    font-size:50px;
+    text-shadow: 0px -2px 0px #ffffff;
+}
+#p{
+	color:#00328b;
+	line-height:25px;
+	font-size:30px;
+	font-family:opensans;
+	margin-bottom:30px;
+}
+#all{
+	border-radius:18px;
+	max-width: 121px;
+    display: block;
+    color: white;
+	font-family:arial;
+    background: #FA5C65;
+    padding-left: 26px;
+    padding-right: 9px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+#all:hover{
+	transition: all 2s;
+    color: white;
+    background: #fa5c6561;
+    transform: scale(0.9);
+}
+/*-----------------
+  secend-section
+-------------------*/
+.secend-section{
+	margin-bottom:50px;
+	background:#80808052;
+}
+#scon{}
+#spon{
+	padding-left:28px;
+	max-width:30%;
+	float:left;
+		animation-name:first;
+	animation-duration:6s;
+	transition:all 1s;
+}
+#spon:hover{
+	transform:translate;
+	transform:rotate(360deg);
+}
+@keyframes first{
+	from{transform:scale(0.1) rotate(0deg);}
+	to{transform:scale(1) rotate(360deg);}
+}
+#full{
+	    cursor: pointer;
+	border-radius: 20px;
+		margin-left: 20px;
+    margin-top: 32px;
+    margin-bottom: 26px;
+    background: gray;
+    overflow: hidden;
+    display: block;
+    padding: 21px;
+    max-width: 360px;
+}
+#bo{
+	    text-shadow: 3px -1px 0px #004bff;
+}
+#oi{
+	 padding-bottom: 10px;
+    overflow: hidden;
+    font-size: 38px;
+    max-width: 224px;
+    font-family: mon;
+    color: #02e8ff;
+    display: block;
+}
+#dot{
+	border-radius:10px;
+	color:orange;
+	font-size:45px;
+}
+#peace{max-width:100%;}
+#pragrap{
+	color:white;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+    line-height:25px;
+}
+#more{
+	transition:all 1.2s;
+    margin-top:10px;
+	color:white;
+}
+#more:hover{
+	color:blue;
+}
+#more a{
+    text-decoration: none;
+    font-size: 26px;
+    transition: all 1.2s;
+}
+#more a:hover{
+    color: white;
+    transform: scale(0.9);   
+}
+#in{
+	transform: scale(0.6);
+}
+
+/*----------------
+      thurd-section
+------------------------*/	  
+.thurd-section{
+	margin-bottom:56px;
+}
+#acha{
+	    overflow:hidden;
+		display:block;
+		background:url(pot.jpg);
+		background-attachment:fixed;
+        background-position:center;
+		background-size:cover;
+		background-repeat:no-repeat;
+}
+#thci{   
+margin-top:70px;
+ transform: translate(754px);
+    max-width: 50%;
+    text-align: left;
+}
+#toll{
+	max-width:90%;
+}
+#ashol{
+	    text-shadow: 0px -2px 0px #272727;
+	    background: #80808008;
+    overflow: hidden;
+    display: block;
+		color:blue;
+}
+#ashol{
+	margin-left:67px;
+	margin-bottom:30px;
+}
+#ashol h1{
+    margin-left:60px;
+	margin-top:40px;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+	font-family:arial black;
+}
+#pre{
+	font-size:30px;
+	font-style:italic;
+}
+#my{
+	margin-bottom:120px;
+}
+#eng{
+        font-size: 25px;
+    line-height: 30px;
+    color: #e01d1d;
+    font-style: italic;
+    font-weight: bold;
+	text-shadow: 1px 1px 20px grey;
+    font-family: Cooper;
+}
+/*----------------
+      fore--section
+------------------------*/	  
+.fore-section{}
+#robot{
+	display:block;
+	overflow:hidden;
+    background:url(brick-wall.jpg);
+	    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:100px;
+    margin-bottom:50px;
+    padding-top:90px;
+}
+#master{
+	margin-left:20px;
+	max-width:30%;
+	float:left;
+	animation-name:ter;
+	animation-duration:10s;
+}
+@keyframes ter{
+	from{transform:rotatex(0deg);}
+	to{transform:rotatex(360deg);}
+}
+#smas{
+	margin-left:130px;
+	max-width:30%;
+	float:left;
+	animation-name:ter;
+	animation-duration:10s;
+}
+#lmas{
+	margin-left:132px;
+	max-width:30%;
+	float:left;
+	animation-name:ter;
+	animation-duration:10s;
+}
+#tatal{
+	margin-left:5px;
+	max-width: 349px;
+    height: 190px;
+    display: block;
+    overflow: hidden;
+	transition:all 8s;
+}
+#tatal:hover{
+	cursor:pointer;
+	transform:scale(1.1);
+}
+#gom{  
+border-radius:490px; 
+ float: left;
+	max-width:170px;
+display:block;
+overflow:hidden;
+}
+#gom img{
+	width: 188px;
+}
+#bold{
+	max-width: 176px;
+	display:block;
+overflow:hidden;
+    float:right;
+}
+#bold h1{
+	color:white;
+	font-family:arial black;
+	    font-size: 34px;
+}
+#hold-off{
+	        color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 0px 20px #ff0000;
+    line-height: 22px;
+}
+#why_not h1{
+	cursor:none;
+	text-align:center;
+	 	   color:#00adff;
+		   font-size:50px;
+		   font-family:arial black;
+}
+#they{
+	text-align:center;
+	color: #3300ff;
+	font-size:25px;
+	opacity:0.9;
+	margin-left:2px;
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
